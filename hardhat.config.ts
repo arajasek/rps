@@ -11,6 +11,7 @@ import "solidity-coverage";
 
 import "./tasks/accounts";
 import "./tasks/FHECounter";
+import "./tasks/FHERPS";
 
 // Run 'npx hardhat vars setup' to see the list of variables that need to be set
 
@@ -55,7 +56,7 @@ const config: HardhatUserConfig = {
         count: 10,
       },
       chainId: 11155111,
-      url: `https://sepolia.infura.io/v3/${INFURA_API_KEY}`,
+      url: `https://gateway.tenderly.co/public/sepolia`,
     },
   },
   paths: {

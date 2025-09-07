@@ -38,10 +38,14 @@ The "others on the bus" - anyone monitoring the blockchain - just see encrypted 
 
 `Pre-requisites: Node 18+, npm, Metamask`
 
-The contract has already been deployed to Ethereum's Sepolia testnet at TODO. If you would like to deploy your own contract for testing, follow the instructions [here](https://docs.zama.ai/protocol/solidity-guides/development-guide/hardhat/run_test#run-on-sepolia-ethereum-testnet).
+The contract has already been deployed to Ethereum's Sepolia testnet at `0x18973Fac696e2F4711F7dEd532F049EA70fa5623`. If you would like to deploy your own contract for testing, follow the instructions [here](https://docs.zama.ai/protocol/solidity-guides/development-guide/hardhat/run_test#run-on-sepolia-ethereum-testnet).
 Note that Sepolia is the only public network supporting full FHEVM functionality as of today.
 
 To get started building the frontend, follow the simple steps [here](https://docs.zama.ai/protocol/relayer-sdk-guides/fhevm-relayer/initialization). It is also useful to know how to create encrypted inputs in the frontend by reviewing the information [here](https://docs.zama.ai/protocol/relayer-sdk-guides/fhevm-relayer/input).
+
+```
+Tip: You can see how to interact with the contract by taking a look at tasks/FHERPS.ts!
+```
 
 ## Creating & Playing Games
 
